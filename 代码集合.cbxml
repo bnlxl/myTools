@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" standalone="yes"?>
 <!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
 
 <database>
@@ -10,7 +10,7 @@
             <plist version="1.0">
                 <dict>
                     <key>NSPersistenceFrameworkVersion</key>
-                    <integer>640</integer>
+                    <integer>754</integer>
                     <key>NSStoreModelVersionHashes</key>
                     <dict>
                         <key>Asset</key>
@@ -74,9 +74,9 @@
     <object type="FOLDER" id="z109">
         <attribute name="sort" type="int16">5</attribute>
         <attribute name="name" type="string">Object-C</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z1307 z235 z1066 z1229 z269 z1334 z1335 z949 z1295 z1326 z402 z368 z374"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z1334 z1307 z402 z374 z1326 z949 z1335 z1066 z1229 z1295 z368 z269 z235"></relationship>
     </object>
     <object type="ASSET" id="z110">
         <attribute name="sort" type="int32">0</attribute>
@@ -119,9 +119,9 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmpVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
     <object type="FOLDER" id="z116">
         <attribute name="sort" type="int16">24</attribute>
         <attribute name="name" type="string">界面全局</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z235"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z115 z487 z288 z337"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z487 z288 z115 z337"></relationship>
     </object>
     <object type="ASSET" id="z117">
         <attribute name="content" type="binary">LSAoaW5zdGFuY2V0eXBlKWluaXRXaXRoQ29kZXI6KE5TQ29kZXIqKWNvZGVy
@@ -174,9 +174,9 @@ bG9jXWluaXRXaXRoVGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3Rvcig8I+aWueazlSM+KV07Cgo=
     <object type="FOLDER" id="z125">
         <attribute name="sort" type="int16">26</attribute>
         <attribute name="name" type="string">手势识别UIGestureRecognizer</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z235"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z147 z144 z127 z205 z145 z148 z146 z149"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z145 z146 z144 z205 z148 z149 z147 z127"></relationship>
     </object>
     <object type="LIST" id="z127">
         <attribute name="sort" type="int16">5</attribute>
@@ -526,14 +526,14 @@ CiAgICBDR1BvaW50IHRyYW5zID0gW3JlY29nbml6ZXIgdHJhbnNsYXRpb25JblZpZXc6cmVjb2duaXpl
     <object type="FOLDER" id="z235">
         <attribute name="sort" type="int16">6</attribute>
         <attribute name="name" type="string">UI</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z109"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z613 z943 z1318 z687 z1264 z116 z309 z328 z125 z828 z938 z242 z590 z916 z425 z416 z839 z941 z260 z445 z716 z438 z534 z236 z737 z919 z497 z927 z680 z754 z104 z496 z787 z805 z623 z846 z800 z775"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z125 z309 z104 z839 z236 z438 z938 z328 z416 z775 z927 z716 z787 z116 z737 z242 z1318 z919 z496 z260 z941 z445 z687 z800 z943 z623 z534 z613 z590 z425 z805 z846 z754 z680 z497 z916 z1264 z828"></relationship>
     </object>
     <object type="FOLDER" id="z236">
         <attribute name="sort" type="int16">27</attribute>
         <attribute name="name" type="string">核心动画</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z235"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z264"></relationship>
     </object>
@@ -713,7 +713,7 @@ Ow==
     <object type="FOLDER" id="z260">
         <attribute name="sort" type="int16">28</attribute>
         <attribute name="name" type="string">layer</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z235"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z261"></relationship>
     </object>
@@ -2092,9 +2092,9 @@ s5XlkI0jPilmb3JDb250cm9sRXZlbnRzOlVJQ29udHJvbEV2ZW50VmFsdWVDaGFuZ2VkXTs=
     <object type="FOLDER" id="z445">
         <attribute name="sort" type="int16">29</attribute>
         <attribute name="name" type="string">小部件</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z235"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z444 z449"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z449 z444"></relationship>
     </object>
     <object type="ASSET" id="z446">
         <attribute name="content" type="binary">VUlBY3Rpb25TaGVldCAqPCPlvLnnqpflkI0jPj1bW1VJQWN0aW9uU2hlZXQgYWxsb2NdaW5pdFdp
@@ -5425,7 +5425,7 @@ ICAgIDEu5re75Yqg6Zi05b2xClVJQnV0dG9uICpjb3ZlciA9IFtbVUlCdXR0b24gYWxsb2NdaW5pdF07
     <object type="FOLDER" id="z919">
         <attribute name="sort" type="int16">32</attribute>
         <attribute name="name" type="string">UIWindow</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z235"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z920"></relationship>
     </object>
@@ -5456,7 +5456,7 @@ ZG93Ow==
     <object type="FOLDER" id="z927">
         <attribute name="sort" type="int16">33</attribute>
         <attribute name="name" type="string">UICollectionViewFlowLayout  流式布局</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z235"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z929 z928"></relationship>
     </object>
@@ -7729,7 +7729,7 @@ aW1lSW50ZXJ2YWxTaW5jZTE5NzBdKjEwMDA7DU5TTG9nKEAiJWxkIixpbnRlcik7Cg0vL+aKiuavq+en
     <object type="FOLDER" id="z1229">
         <attribute name="sort" type="int16">9</attribute>
         <attribute name="name" type="string">地图定位</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z109"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z1239 z1230"></relationship>
     </object>
@@ -8225,7 +8225,7 @@ c29u55qE5pa55rOVCiAgTlNUaW1lciAqdGltZSA9IFtOU1RpbWVyIHNjaGVkdWxlZFRpbWVyV2l0aFRp
     <object type="FOLDER" id="z1295">
         <attribute name="sort" type="int16">10</attribute>
         <attribute name="name" type="string">运行时</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z109"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z1296"></relationship>
     </object>
@@ -8317,7 +8317,7 @@ VHlwZSDnmoTmnYPpmZAgLS0g5LuF6YCC55So5LqOIGlPUzgKVUlVc2VyTm90aWZpY2F0aW9uU2V0dGlu
     <object type="FOLDER" id="z1307">
         <attribute name="sort" type="int16">11</attribute>
         <attribute name="name" type="string">后台模式</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z109"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z1306"></relationship>
     </object>
@@ -8458,7 +8458,7 @@ QWZmaW5lVHJhbnNmb3JtTWFrZVRyYW5zbGF0aW9uKDwjQ0dGbG9hdCB0eCM+LCA8I0NHRmxvYXQgdHkj
     <object type="FOLDER" id="z1326">
         <attribute name="sort" type="int16">12</attribute>
         <attribute name="name" type="string">长按手势</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z109"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z1327"></relationship>
     </object>
