@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AA91FDD6-1B9D-4838-BA1C-C322E81BDA53</UUID>
-        <nextObjectID>879</nextObjectID>
+        <nextObjectID>885</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -61,7 +61,7 @@
         <attribute name="name" type="string">UI 控件</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z206 z226 z341 z395 z288 z839 z808 z592 z542 z112 z213 z241 z229 z604 z131 z149 z402 z526 z221 z336 z375 z203 z102 z134 z129 z232"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z288 z129 z221 z102 z402 z112 z232 z395 z526 z131 z226 z134 z604 z336 z241 z808 z149 z206 z542 z839 z375 z341 z229 z203 z592 z213"></relationship>
     </object>
     <object type="SEARCH" id="z104">
         <attribute name="sort" type="int16">0</attribute>
@@ -699,7 +699,7 @@ aHQ65pa55rOV77ya6I635Y+W6KGo6KeG5Zu+55qE6KGM6auYCuOAgOOAgDE2LjEuMuOAgGhlYWRlclZp
         <attribute name="name" type="string">Foundation 架构秘籍</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z189 z190 z188"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z188 z189 z190"></relationship>
     </object>
     <object type="LIST" id="z188">
         <attribute name="sort" type="int16">0</attribute>
@@ -1913,7 +1913,7 @@ rq4uPFVJSW1hZ2VQaWNrZXJDb250cm9sbGVyRGVsZWdhdGUsIFVJTmF2aWdhdGlvbkNvbnRyb2xsZXJE
         <attribute name="name" type="string">版本控制</attribute>
         <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z349 z819 z875"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z875 z349 z819"></relationship>
     </object>
     <object type="SNIPPET" id="z347">
         <attribute name="name" type="string">方法</attribute>
@@ -2394,7 +2394,7 @@ c2hMYXVuY2hpbmdXaXRoT3B0aW9uczooTlNEaWN0aW9uYXJ5ICopbGF1bmNoT3B0aW9ucyB7CiAgICAv
     <object type="FOLDER" id="z409">
         <attribute name="sort" type="int16">10</attribute>
         <attribute name="name" type="string">cocoapods</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z410 z861"></relationship>
     </object>
@@ -5812,7 +5812,7 @@ bGRCZWdpbjooVUlHZXN0dXJlUmVjb2duaXplciAqKWdlc3R1cmVSZWNvZ25pemVyOwoKLy8g5piv5ZCm
     <object type="FOLDER" id="z861">
         <attribute name="sort" type="int16">0</attribute>
         <attribute name="name" type="string">组件化</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z409"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z862"></relationship>
     </object>
@@ -5822,7 +5822,7 @@ bGRCZWdpbjooVUlHZXN0dXJlUmVjb2duaXplciAqKWdlc3R1cmVSZWNvZ25pemVyOwoKLy8g5piv5ZCm
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z861"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z860 z870 z864 z874 z868 z865 z872 z879"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z879 z874 z882 z884 z880 z872 z864 z860 z865 z870 z868"></relationship>
     </object>
     <object type="ASSET" id="z863">
         <attribute name="sort" type="int32">-1</attribute>
@@ -5957,5 +5957,53 @@ Ym9zZSAtLWFsbG93LXdhcm5pbmdzIOmqjOivgeacrOWcsOe0ouW8leaWh+S7tuaYr+WQpuato+ehrgoK
         <relationship name="list" type="1/1" destination="LIST" idrefs="z862"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z878"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z880">
+        <attribute name="name" type="string">0.参考文献</attribute>
+        <attribute name="modified" type="date">573103234.00929200649261474609</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z862"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z881"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z881">
+        <attribute name="content" type="binary">aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC83NjBkNmNkNDY3MTkKCmh0dHBzOi8vd3d3LmppYW5z
+aHUuY29tL3AvZjg0MWUyNDhiYzRm
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z880"></relationship>
+    </object>
+    <object type="SNIPPET" id="z882">
+        <attribute name="name" type="string">9.创建 pch 文件</attribute>
+        <attribute name="modified" type="date">573103345.33568704128265380859</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z862"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z883"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z883">
+        <attribute name="content" type="binary">cy5wcmVmaXhfaGVhZGVyX2ZpbGUgPSAnS0RBbGFybUludGVyZmFjZU1vdWRsZS9DbGFzc2VzL0tE
+QWxhcm1JbnRlcmZhY2VNb3VkbGUtcHJlZml4LnBjaCc=
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z882"></relationship>
+    </object>
+    <object type="SNIPPET" id="z884">
+        <attribute name="name" type="string">10.注意</attribute>
+        <attribute name="modified" type="date">573103599.14450705051422119141</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z862"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z885"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z885">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">MS7lm77niYflkowgeGliIOaWh+S7tuW6lOivpeaUvuWcqCBBc3NldHMg5paH5Lu25LitLOS7o+eg
+geaUvuWcqENsYXNzZXPkuK0K
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z884"></relationship>
     </object>
 </database>
