@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AA91FDD6-1B9D-4838-BA1C-C322E81BDA53</UUID>
-        <nextObjectID>892</nextObjectID>
+        <nextObjectID>894</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -1969,7 +1969,7 @@ SU5URUdFUiBQUklNQVJZIEtFWSBBVVRPSU5DUkVNRU5ULCBuYW1lIFRFWFQsIGFnZSBJTlRFR0VSKTsK
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z356"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z892 z443 z552 z385 z392 z357 z387 z394 z586"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z385 z387 z394 z392 z552 z357 z586 z443 z893 z892"></relationship>
     </object>
     <object type="FOLDER" id="z356">
         <attribute name="sort" type="int16">3</attribute>
@@ -6061,5 +6061,21 @@ bSBzdHIg6ZyA6KaB6L2s5YyW55qE5a2X56ym5LiyLgogKgogKiBAcmV0dXJuIOaOp+WItuWZqCjpnIDl
         <relationship name="list" type="1/1" destination="LIST" idrefs="z355"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z891"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z893">
+        <attribute name="name" type="string">单例全法</attribute>
+        <attribute name="modified" type="date">573535168.46652698516845703125</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z355"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z894"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z894">
+        <attribute name="content" type="binary">Ly8g5Yib5bu66Z2Z5oCB5a+56LGhIOmYsuatouWklumDqOiuv+mXrgpzdGF0aWMgS0RBbGFybUlu
+Zm9ybWF0aW9uTWFuYWdlciAqX2luc3RhbmNlOwpzdGF0aWMgZGlzcGF0Y2hfb25jZV90IG9uY2VUb2tlbjsKKyhpbnN0YW5jZXR5cGUpYWxsb2NXaXRoWm9uZTooc3RydWN0IF9OU1pvbmUgKil6b25lewogICAgZGlzcGF0Y2hfb25jZSgmb25jZVRva2VuLCBeewogICAgICAgIGlmIChfaW5zdGFuY2UgPT0gbmlsKSB7CiAgICAgICAgICAgIF9pbnN0YW5jZSA9IFtzdXBlciBhbGxvY1dpdGhab25lOnpvbmVdOwogICAgICAgIH0KICAgIH0pOwogICAgcmV0dXJuIF9pbnN0YW5jZTsKfQoKKyhpbnN0YW5jZXR5cGUpc2hhcmVNYW5hZ2VyewogICAgcmV0dXJuIFtbc2VsZiBhbGxvY11pbml0XTsKfQoKLy8g5Li65LqG5Lil6LCo77yM5Lmf6KaB6YeN5YaZY29weVdpdGhab25lIOWSjCBtdXRhYmxlQ29weVdpdGhab25lCi0oaWQpY29weVdpdGhab25lOihOU1pvbmUgKil6b25lewogICAgcmV0dXJuIF9pbnN0YW5jZTsKfQoKLShpZCltdXRhYmxlQ29weVdpdGhab25lOihOU1pvbmUgKil6b25lewogICAgcmV0dXJuIF9pbnN0YW5jZTsKfQoKLyoqCiDplIDmr4EKICovCisodm9pZClhdHRlbXBEZWFsbG9jewogICAgb25jZVRva2VuID0gMDsgLy8g5Y+q5pyJ572u5oiQMCxHQ0TmiY3kvJrorqTkuLrlroPku47mnKrmiafooYzov4cu5a6D6buY6K6k5Li6MC7ov5nmoLfmiY3og73kv53or4HkuIvmrKHlho3mrKHosIPnlKhzaGFyZUluc3RhbmNl55qE5pe25YCZLOWGjeasoeWIm+W7uuWvueixoS4KICAgIF9pbnN0YW5jZSA9IG5pbDsKfQ==
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z893"></relationship>
     </object>
 </database>
