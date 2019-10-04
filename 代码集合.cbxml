@@ -10,7 +10,7 @@
             <plist version="1.0">
                 <dict>
                     <key>NSPersistenceFrameworkVersion</key>
-                    <integer>754</integer>
+                    <integer>851</integer>
                     <key>NSStoreModelVersionHashes</key>
                     <dict>
                         <key>Asset</key>
@@ -74,9 +74,9 @@
     <object type="FOLDER" id="z109">
         <attribute name="sort" type="int16">5</attribute>
         <attribute name="name" type="string">Object-C</attribute>
-        <attribute name="expanded" type="bool">0</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z1334 z1307 z402 z374 z1326 z949 z1335 z1066 z1229 z1295 z368 z269 z235"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z1066 z1229 z1295 z1307 z374 z368 z1334 z1326 z269 z949 z1335 z235 z402"></relationship>
     </object>
     <object type="ASSET" id="z110">
         <attribute name="sort" type="int32">0</attribute>
@@ -5810,7 +5810,7 @@ KQ==
     <object type="FOLDER" id="z975">
         <attribute name="sort" type="int16">4</attribute>
         <attribute name="name" type="string">混合开发</attribute>
-        <attribute name="expanded" type="bool">0</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z971"></relationship>
     </object>
